@@ -28,4 +28,6 @@ def turn(board)
   if valid_move?(board, validate)
     move(board, input)
     display_board(move)
+  else
+    gets.chomp
 end
