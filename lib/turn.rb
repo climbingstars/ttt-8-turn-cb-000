@@ -23,7 +23,8 @@ end
 
 def turn(board)
   puts "Please enter 1-9:"
-  input = gets
+  input = gets.chomp
   validate = input_to_index(input)
-  validation = valid_move?(board, validate)
+  if valid_move?(board, validate)
+    
 end
