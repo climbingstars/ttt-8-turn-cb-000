@@ -30,4 +30,5 @@ def turn(board)
     display_board(move)
   else
     gets.chomp
+  end
 end
